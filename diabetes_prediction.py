@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 
 # loading the diabetes dataset to a pandas DataFrame
-diabetes_dataset = pd.read_csv('/Users/jatinagrawal/__pycache__/diabetes (1).csv')
+diabetes_dataset = pd.read_csv('diabetes (1).csv')
 
 
 
