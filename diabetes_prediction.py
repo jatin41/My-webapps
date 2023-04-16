@@ -106,7 +106,7 @@ print(std_data)
 prediction = classifier.predict(std_data)
 print(prediction)
 
-if st.button("Predict")
+if st.button("Predict"):
   if (prediction[0] == 0):
     st.write('The person is not diabetic')
   else:
